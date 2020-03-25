@@ -30,7 +30,7 @@ public class BuyerProductController {
 
     @GetMapping("/list")
     public ResultVO list(){
-        System.out.println("aaa");
+        System.out.println("aaaasdasdsadasdasd");
         List<ProductInfo> productInfoList = productService.findUpAll();
         List<Integer> categoryTypeList = new ArrayList<Integer>();
         categoryTypeList = productInfoList.stream()
